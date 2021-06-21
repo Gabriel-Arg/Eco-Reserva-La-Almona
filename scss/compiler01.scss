@@ -1,3 +1,24 @@
+@import "variables";
+
+h1 {
+    
+    font-family: $fuente-titulos;
+}
+h2, h3, h4, h5, h6 {
+    font-family: $fuente-subtitulos;
+
+}
+p {
+    font-family: $fuente-parrafos;
+}
+a {
+    font-family: $fuente-subtitulos;
+    text-decoration: none;
+}
+
+// ------------------------------------------
+//         BODY
+// ------------------------------------------
 body {
     margin: 0;
     padding: 0;
@@ -18,7 +39,7 @@ body {
     //     FOOTER
     // --------------------------------------
     footer {
-        background-color: grey;
+        background-color: $color-grisoscuro;
         height: 400px;
     }
 }

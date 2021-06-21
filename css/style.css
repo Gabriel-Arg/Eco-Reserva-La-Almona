@@ -1,3 +1,20 @@
+h1 {
+  font-family: "Vollkorn", serif;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "Unica One", cursive;
+}
+
+p {
+  font-family: "Monda", sans-serif;
+}
+
+a {
+  font-family: "Unica One", cursive;
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -10,7 +27,7 @@ body .wraper header {
   height: 100vh;
 }
 body footer {
-  background-color: grey;
+  background-color: #262626;
   height: 400px;
 }
 
