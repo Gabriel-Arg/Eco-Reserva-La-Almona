@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    .wraper {
+        border: 1px solid orangered;
+
+        // ----------------------------------
+        //     HEADER
+        // ----------------------------------
+        header {
+            height: 100vh;
+        }
+    }
+
+    // --------------------------------------
+    //     FOOTER
+    // --------------------------------------
+    footer {
+        background-color: grey;
+        height: 400px;
+    }
+}
+
