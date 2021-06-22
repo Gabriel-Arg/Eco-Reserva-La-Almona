@@ -24,6 +24,30 @@ body {
     padding: 0;
     box-sizing: border-box;
 
+    .burger-icon {
+        // display: none;
+        border-radius: 50%;
+        padding: 5px;
+        width: 45px;
+        cursor: pointer;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        z-index: 3;
+        box-shadow: 2px 2px 8px #bebebe, -5px -5px 10px #ffffff;
+        transition: 0.2s;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .burger-icon:hover {
+        // background: linear-gradient(145deg, #ffffff, #bababa);
+        box-shadow: 8px 8px 15px #c2c2c2, -8px -8px 25px #ffffff;
+        width: 48px;
+    }
+
     .wraper {
         border: 1px solid orangered;
 
