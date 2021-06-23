@@ -21,23 +21,79 @@ body {
   box-sizing: border-box;
 }
 body .burger-icon {
+  display: none;
   border-radius: 50%;
-  padding: 5px;
+  padding: 3px;
   width: 45px;
   cursor: pointer;
   position: fixed;
   top: 15px;
   right: 15px;
   z-index: 3;
-  box-shadow: 2px 2px 8px #bebebe, -5px -5px 10px #ffffff;
+  box-shadow: 2px 2px 8px #bebebe;
   transition: 0.2s;
 }
 body .burger-icon img {
   width: 100%;
 }
 body .burger-icon:hover {
-  box-shadow: 8px 8px 15px #c2c2c2, -8px -8px 25px #ffffff;
-  width: 48px;
+  box-shadow: none;
+  background-color: #1AAA5A;
+}
+body .menu-container-fluid {
+  margin-top: 20px;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+body .menu-container-fluid .menu-container {
+  /* border: 1px solid red; */
+  height: 50px;
+  font-family: "Unica One", cursive;
+}
+body .menu-container-fluid .menu-container .menu-row {
+  /* border: 1px solid greenyellow; */
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body .menu-container-fluid .menu-container .menu-row .menu-logo {
+  width: 50px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+body .menu-container-fluid .menu-container .menu-row .menu-logo img {
+  width: 100%;
+}
+body .menu-container-fluid .menu-container .menu-row .menu-logo:hover {
+  width: 53px;
+}
+body .menu-container-fluid .menu-container .menu-row nav {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+body .menu-container-fluid .menu-container .menu-row nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+body .menu-container-fluid .menu-container .menu-row nav ul a {
+  text-decoration: none;
+  margin: 0px 25px;
+  color: #262626;
+  padding-bottom: 8px;
+}
+body .menu-container-fluid .menu-container .menu-row nav ul a:hover {
+  color: #1AAA5A;
+  transition: 0.4s;
+  border-bottom: 3px solid #1AAA5A;
+  border-radius: 0px 0px 3px 3px;
 }
 body .wraper {
   border: 1px solid orangered;

@@ -42,28 +42,35 @@
     </style>
 </head>
 
-<body>
+<body id="inicio">
 
     <!-- ------------------------------------------------------------------------------------------------- -->
     <!-- -----------------------NAV BAR - BURGER BUTTON-------- -->
     <!-- ------------------------------------------------------------------------------------------------- -->
 
-    <i class="burger-icon">
-        <img src="icon/menu-elipsis.svg" alt="Botón hamburgueza">
+    <i id="boton-menu" class="burger-icon">
+        <img src="icon/menu-circular.svg" alt="Botón hamburgueza">
     </i>
 
     <div class="container-fluid menu-container-fluid">
         <div class="container menu-container">
             <div class="row menu-row">
 
+                <div class="menu-logo">
+                    <a href="#inicio">
+                        <img src="icon/hoja-Logo.svg" alt="Logo de Eco reserva La Almona">
+                    </a>
+                </div>
+
+
                 <nav class="menu-oculto menu-activo">
                     <ul>
-                        <li> <a id="enlace" class="link" href="#nosotros"> Nosotros </a> </li>
-                        <li> <a id="enlace" class="link" href="#ubicacion"> Ubicación </a> </li>
-                        <li> <a id="enlace" class="link" href="#urbanismo"> Urbanismo </a> </li>
-                        <li> <a id="enlace" class="link" href="#avances"> Avances </a> </li>
-                        <li> <a id="enlace" class="link" href="#noticias"> Noticias </a> </li>
-                        <li> <a id="enlace" class="link" href="#contacto"> Contacto </a> </li>
+                        <li> <a id="enlace" class="link" href="#nosotros"> NOSOTROS </a> </li>
+                        <li> <a id="enlace" class="link" href="#ubicacion"> UBICACION </a> </li>
+                        <li> <a id="enlace" class="link" href="#urbanismo"> URBANISMO </a> </li>
+                        <li> <a id="enlace" class="link" href="#avances"> AVANCES </a> </li>
+                        <li> <a id="enlace" class="link" href="#noticias"> NOTICIAS </a> </li>
+                        <li> <a id="enlace" class="link" href="#contacto"> CONTACTO </a> </li>
                     </ul>
                 </nav>
             </div>
@@ -73,14 +80,13 @@
 
 
 
-
-
-
-
     <!-- ------------------------------------HEADER-------------------------------------------------- -->
 
     <div class="container-fluid">
         <div class="container wraper">
+            <header>
+                Eco Reserva La Almona
+            </header>
 
         </div>
     </div>
@@ -94,6 +100,37 @@
         </div>
 
     </footer>
+
+
+        <!-- ----------------------------------------------------------------------- -->
+        <!-- ----------------- JAVASCRIPT PARA EL BURGUER BUTTON---- -->
+        <!-- ----------------------------------------------------------------------- -->
+
+        <script>
+            // SELECTORES --- seleccionamos a la class que contiene al nav y al boton hamburgueza.
+            document.querySelector('.menu-activo');
+            document.querySelector('.burger-icon');
+
+            // VARIABLES CONSTANTES
+            const menu = document.querySelector('.menu-activo');
+            const burgerButton = document.querySelector('.burger-icon');
+
+            // DEJO UN MENSAJE CON LAS VARIABLES
+            console.log(menu);
+            console.log(burgerButton);
+
+            // EVENTO SOBRE EL BURGER-BUTTON
+            burgerButton.addEventListener('click', desplegar);
+
+            // FUNCIÓN para que DESPLIEGUE Y SE OCULTE EL MENU
+            function desplegar() {
+                if (menu.classList.contains('menu-oculto')) {
+                    menu.classList.remove('menu-oculto');
+                } else {
+                    menu.classList.add('menu-oculto');
+                }
+            }
+        </script>
 
 
 
