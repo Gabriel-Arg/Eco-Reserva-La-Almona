@@ -131,18 +131,45 @@ body {
         }
     }
 
+    // ----------------------------------
+    //     BOTON DE CONTACTO
+    // ----------------------------------
+    .btn-wp {
+        width: 55px;
+        padding: 7px;
+        border-radius: 50%;
+        box-shadow: 1px 1px 10px #2626264a;
 
+        position: fixed;
+        right: 5%;
+        bottom: 15px;
+        z-index: 1;
 
-    .wraper {
-        // border: 1px solid orangered;
+        a {
+            text-decoration: none;
 
-        // ----------------------------------
-        //     HEADER
-        // ----------------------------------
-        header {
-            height: 100vh;
+            img {
+                width: 100%;
+            }
         }
     }
+
+    // ------------------------------------------
+    //         HEADER
+    // ------------------------------------------
+    .header-fluid {
+        height: 100vh;
+
+        .header-container {
+            // border: 1px solid orangered;
+            height: 100%;
+
+            .header-row {
+                background-color: rgba(255, 166, 0, 0.22);
+            }
+        }
+    }
+    
 
     // --------------------------------------
     //     FOOTER

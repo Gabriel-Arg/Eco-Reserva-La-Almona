@@ -100,8 +100,30 @@ body .menu-container-fluid .menu-container .menu-row nav ul li a:hover {
   border-bottom: 3px solid #1AAA5A;
   border-radius: 0px 0px 3px 3px;
 }
-body .wraper header {
+body .btn-wp {
+  width: 55px;
+  padding: 7px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px #2626264a;
+  position: fixed;
+  right: 5%;
+  bottom: 15px;
+  z-index: 1;
+}
+body .btn-wp a {
+  text-decoration: none;
+}
+body .btn-wp a img {
+  width: 100%;
+}
+body .header-fluid {
   height: 100vh;
+}
+body .header-fluid .header-container {
+  height: 100%;
+}
+body .header-fluid .header-container .header-row {
+  background-color: rgba(255, 166, 0, 0.22);
 }
 body footer {
   background-color: #262626;
