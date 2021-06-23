@@ -25,13 +25,13 @@ body .burger-icon {
   border-radius: 50%;
   border: 4px solid #FEFEFE;
   padding: 0;
-  width: 45px;
+  width: 35px;
   cursor: pointer;
   position: fixed;
   top: 15px;
   right: 15px;
   z-index: 3;
-  box-shadow: 3px 3px 10px #2626267e;
+  box-shadow: 1px 1px 10px #2626264a;
   transition: 0.2s;
 }
 body .burger-icon img {
@@ -99,9 +99,6 @@ body .menu-container-fluid .menu-container .menu-row nav ul li a:hover {
   transition: 0.4s;
   border-bottom: 3px solid #1AAA5A;
   border-radius: 0px 0px 3px 3px;
-}
-body .wraper {
-  border: 1px solid orangered;
 }
 body .wraper header {
   height: 100vh;
