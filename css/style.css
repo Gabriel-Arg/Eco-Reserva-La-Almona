@@ -23,14 +23,15 @@ body {
 body .burger-icon {
   display: none;
   border-radius: 50%;
-  padding: 3px;
+  border: 4px solid #FEFEFE;
+  padding: 0;
   width: 45px;
   cursor: pointer;
   position: fixed;
   top: 15px;
   right: 15px;
   z-index: 3;
-  box-shadow: 2px 2px 8px #bebebe;
+  box-shadow: 3px 3px 10px #2626267e;
   transition: 0.2s;
 }
 body .burger-icon img {
@@ -38,7 +39,7 @@ body .burger-icon img {
 }
 body .burger-icon:hover {
   box-shadow: none;
-  background-color: #1AAA5A;
+  border: 4px solid #1AAA5A;
 }
 body .menu-container-fluid {
   margin-top: 20px;

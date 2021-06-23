@@ -34,6 +34,7 @@
     .menu-activo ul {
         display: flex;
         flex-direction: column;
+        
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -43,7 +44,6 @@
 
     #hoja-link {
         display: flex;
-        margin-top: 0;
     }
 
     #link-logo {
