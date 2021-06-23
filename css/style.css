@@ -83,13 +83,17 @@ body .menu-container-fluid .menu-container .menu-row nav ul {
   margin: 0px;
   padding: 0px;
 }
-body .menu-container-fluid .menu-container .menu-row nav ul a {
+body .menu-container-fluid .menu-container .menu-row nav ul .hoja-link {
+  display: none;
+}
+body .menu-container-fluid .menu-container .menu-row nav ul li a {
   text-decoration: none;
-  margin: 0px 25px;
+  margin: 0px 20px;
   color: #262626;
   padding-bottom: 8px;
+  font-weight: bold;
 }
-body .menu-container-fluid .menu-container .menu-row nav ul a:hover {
+body .menu-container-fluid .menu-container .menu-row nav ul li a:hover {
   color: #1AAA5A;
   transition: 0.4s;
   border-bottom: 3px solid #1AAA5A;

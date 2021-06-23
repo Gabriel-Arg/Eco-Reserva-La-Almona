@@ -41,6 +41,15 @@
         height: 100vh;
     }
 
+    #hoja-link {
+        display: flex;
+        margin-top: 0;
+    }
+
+    #link-logo {
+        width: 50px;
+    }
+
     .menu-activo li {
         margin: 20px;
         width: auto;
@@ -60,6 +69,7 @@
     #enlace {
         color: #FEFEFE;
         width: 100%;
+        font-weight: normal;
     }
     #enlace:hover {
         color: #1AAA5A;
@@ -67,4 +77,8 @@
         border: none;
     }
 
+    /* ----------------------------------- */
+    /*       FOOTER */
+    /* ----------------------------------- */
+    
 }

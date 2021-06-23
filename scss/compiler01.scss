@@ -101,29 +101,34 @@ body {
                         margin: 0px;
                         padding: 0px;
 
-                        a {
-                            text-decoration: none;
-                            margin: 0px 25px;
-                            color: $color-grisoscuro;
-                            padding-bottom: 8px;
+                        .hoja-link {
+                            // border: 1px solid red;
+                            display: none;
                         }
 
-                        a:hover {
-                            color: $color-verde-claro;
-                            transition: 0.4s;
-                            border-bottom: 3px solid $color-verde-claro;
-                            border-radius: 0px 0px 3px 3px;
+                        li {
+                            // border: 1px solid red;
+
+                            a {
+                                text-decoration: none;
+                                margin: 0px 20px;
+                                color: $color-grisoscuro;
+                                padding-bottom: 8px;
+                                font-weight: bold;
+                            }
+    
+                            a:hover {
+                                color: $color-verde-claro;
+                                transition: 0.4s;
+                                border-bottom: 3px solid $color-verde-claro;
+                                border-radius: 0px 0px 3px 3px;
+                            }
                         }
                     }
                 }
             }
         }
     }
-
-
-
-
-
 
 
 
