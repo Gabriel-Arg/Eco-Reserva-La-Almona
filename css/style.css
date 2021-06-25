@@ -25,7 +25,7 @@ body .burger-icon {
   border-radius: 50%;
   border: 4px solid #FEFEFE;
   padding: 0;
-  width: 35px;
+  width: 40px;
   cursor: pointer;
   position: fixed;
   top: 15px;
@@ -101,12 +101,13 @@ body .menu-container-fluid .menu-container .menu-row nav ul li a:hover {
   border-radius: 0px 0px 3px 3px;
 }
 body .btn-wp {
-  width: 55px;
-  padding: 7px;
+  width: 60px;
+  padding: 0px;
   border-radius: 50%;
+  border: 4px solid #1AAA5A;
   box-shadow: 1px 1px 10px #2626264a;
   position: fixed;
-  right: 5%;
+  left: 8%;
   bottom: 15px;
   z-index: 1;
 }
