@@ -1,5 +1,9 @@
 @media screen and (max-width: 576px) {
 
+    body .menu-container-fluid {
+        background: none;
+    }
+
     .menu-container-fluid, .menu-container, .menu-row {
         height: auto;
     }
