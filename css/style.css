@@ -9,15 +9,15 @@ h1 {
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: "Unica One", cursive;
+  font-family: "Montserrat", sans-serif;
 }
 
 p {
-  font-family: "Monda", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
-  font-family: "Unica One", cursive;
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ body .menu-container-fluid {
 body .menu-container-fluid .menu-container {
   /* border: 1px solid red; */
   height: 50px;
-  font-family: "Unica One", cursive;
+  font-family: "Montserrat", sans-serif;
 }
 body .menu-container-fluid .menu-container .menu-row {
   /* border: 1px solid greenyellow; */
@@ -157,7 +157,7 @@ body header .hero h1 {
 body header .hero h1 .eco {
   margin: 0;
   font-size: 35px;
-  font-family: "Unica One", cursive;
+  font-family: "Montserrat", sans-serif;
 }
 body header .hero .hoja-logo {
   width: 8vw;
@@ -184,7 +184,7 @@ body .nosotros-fluid .nosotros-container {
   position: relative;
 }
 body .nosotros-fluid .nosotros-container .nosotros-row {
-  background-color: #FEFEFE;
+  background-color: #262626;
   height: auto;
   padding: 50px 50px 0px;
   width: 87%;
@@ -198,23 +198,12 @@ body .nosotros-fluid .nosotros-container .nosotros-row {
 body .nosotros-fluid .nosotros-container .nosotros-row h2 {
   margin-bottom: 40px;
   text-align: center;
-  font-style: italic;
   font-family: "Vollkorn", serif;
+  color: grey;
 }
 body .nosotros-fluid .nosotros-container .nosotros-row p {
   width: 80%;
   text-align: justify;
-}
-body .nosotros-fluid .nosotros-container .nosotros-row .nosotros-acordeon {
-  width: 80%;
-}
-body .nosotros-fluid .nosotros-container .nosotros-row .nosotros-acordeon .btn-acordeon {
-  font-family: "Monda", sans-serif;
-}
-body .nosotros-fluid .nosotros-container .nosotros-row .nosotros-acordeon .nosotros-acordeon_txt {
-  margin-bottom: 30px;
-  text-align: justify;
-  font-family: "Monda", sans-serif;
 }
 body footer {
   background-color: #262626;
