@@ -109,7 +109,6 @@ body .btn-wp {
   position: fixed;
   left: 8%;
   bottom: 15px;
-  z-index: 1;
 }
 body .btn-wp a {
   text-decoration: none;
