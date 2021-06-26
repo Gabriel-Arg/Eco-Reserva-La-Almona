@@ -120,16 +120,9 @@
     }
 
     body .nosotros-fluid .nosotros-container .nosotros-row {
-        background-color: #FEFEFE;
         height: auto;
-        padding: 50px 10px 0px;
         width: 97%;
-        position: absolute;
-        top: -12vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
+        
     }
 
 

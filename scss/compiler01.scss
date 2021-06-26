@@ -251,7 +251,7 @@ body {
 
             .nosotros-row {
                 // border: 1px solid yellow;
-                background-color: $color-blanco;
+                background-color: $color-grisoscuro;
                 height: auto;
                 padding: 50px 50px 0px;
                 width: 87%;
@@ -268,29 +268,14 @@ body {
                     // border: 1px solid red;
                     margin-bottom: 40px;
                     text-align: center;
-                    font-style: italic;
                     font-family: $fuente-titulos;
+                    color: grey;
                 }
 
                 p {
                     // border: 1px solid green;
                     width: 80%;
                     text-align: justify;
-                }
-
-                .nosotros-acordeon {
-                    // border: 1px solid crimson;
-                    width: 80%;
-
-                    .btn-acordeon {
-                        font-family: $fuente-parrafos;
-                    }
-
-                    .nosotros-acordeon_txt {
-                        margin-bottom: 30px;
-                        text-align: justify;
-                        font-family: $fuente-parrafos;
-                    }
                 }
             }
         }
