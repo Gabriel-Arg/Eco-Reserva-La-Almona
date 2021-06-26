@@ -94,22 +94,16 @@
         width: auto;
     }
 
-    body header .hoja-logo {
-        width: 20vh;
-        position: absolute;
-        right: 30%;
-        top: 15%;
+    body header .hero .hoja-logo {
+        width: 35vw;
     }
 
-    body header .hero {
-        width: 100%;
-        position: absolute;
-        top: 50%;
-        right: 0;
+    body header .hero h1 .eco {
+        font-size: 25px;
     }
 
     body header .hero h1 {
-        font-size: 50px;
+        font-size: 3rem;
     }
 
 

@@ -164,7 +164,7 @@ body {
     header {
         // border: 1px solid blue;
         width: 100%;
-        height: 100vh;
+        height: 87vh;
         position: relative;
         overflow: hidden;
 
@@ -173,7 +173,7 @@ body {
             width: 100%;
             height: 100%;
             position: absolute;
-            background-color: rgba(170, 230, 168, 0.46);
+            background-color: rgba(232, 255, 236, 0.46);
         }
 
         .hero {
@@ -183,12 +183,15 @@ body {
             top: 20%;
             right: 0;
             text-align: center;
+
             display: flex;
+            flex-direction: column;
             justify-content: center;
+            align-items: center;
 
             h1 {
                 margin: 0;
-                font-size: 70px;
+                font-size: 100px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -196,17 +199,21 @@ body {
 
                 .eco {
                     margin: 0;
-                    font-size: 45px;
+                    font-size: 35px;
                     font-family: $fuente-subtitulos;
                 }
             }
-        }
 
-        .hoja-logo {
-            width: 60vh;
-            position: absolute;
-            right: -150px;
-            top: 15%;
+            .hoja-logo {
+                // border: 1px solid greenyellow;
+                width: 10vw;
+                margin-top: 20px;
+
+                img {
+                    width: 100%;
+                    opacity: 70%;
+                }
+            }
         }
         
 
