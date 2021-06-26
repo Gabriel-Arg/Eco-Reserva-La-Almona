@@ -106,6 +106,36 @@
         font-size: 3rem;
     }
 
+    /* ----------------------------------- */
+    /*       NOSOTROS   */
+    /* ----------------------------------- */
+    body .nosotros-fluid {
+        background-color: #262626;
+        height: 100vh;
+        /* border: 1px solid yellow; */
+    }
+
+    body .nosotros-fluid .nosotros-container {
+        padding: 0;
+    }
+
+    body .nosotros-fluid .nosotros-container .nosotros-row {
+        background-color: #FEFEFE;
+        height: auto;
+        padding: 50px 10px 0px;
+        width: 97%;
+        position: absolute;
+        top: -12vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+
+
+
 
     /* ----------------------------------- */
     /*       FOOTER */
