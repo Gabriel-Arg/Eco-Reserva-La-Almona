@@ -86,6 +86,32 @@
         left: 15px;
     }
 
+    /* ----------------------------------- */
+    /*       HEADER */
+    /* ----------------------------------- */
+    body header video {
+        height: 100vh;
+        width: auto;
+    }
+
+    body header .hoja-logo {
+        width: 20vh;
+        position: absolute;
+        right: 30%;
+        top: 15%;
+    }
+
+    body header .hero {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        right: 0;
+    }
+
+    body header .hero h1 {
+        font-size: 50px;
+    }
+
 
     /* ----------------------------------- */
     /*       FOOTER */
