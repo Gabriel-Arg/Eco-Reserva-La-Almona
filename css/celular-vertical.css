@@ -115,7 +115,7 @@
     /* ----------------------------------- */
     body .nosotros-fluid {
         background-color: #262626;
-        height: 100vh;
+        height: 1800px;
         /* border: 1px solid yellow; */
     }
 
@@ -129,9 +129,22 @@
         
     }
 
+    body .nosotros-fluid .nosotros-container .nosotros-row h2 {
+        padding: 0px 45px;
+    }
 
+    body .nosotros-fluid .nosotros-container .nosotros-row .nosotros-cuadros {
+        flex-direction: column;
+    }
 
+    body .nosotros-fluid .nosotros-container .nosotros-row .nosotros-cuadros .nosotros-txt {
+        width: 100%;
+        margin-top: 60px;
+    }
 
+    body .nosotros-fluid .nosotros-container .nosotros-row .nosotros-cuadros .snip_1 {
+        width: 100%;
+    }
 
 
     /* ----------------------------------- */
