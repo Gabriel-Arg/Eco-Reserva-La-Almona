@@ -236,7 +236,7 @@ body {
     .nosotros-fluid {
         // border: 1px solid blue;
         background-color: $color-grisoscuro;
-        height: 650px;
+        height: 900px;
 
         .nosotros-container {
             // border: 1px solid orangered;
@@ -253,7 +253,7 @@ body {
                 // border: 1px solid yellow;
                 background-color: $color-grisoscuro;
                 height: auto;
-                padding: 50px 50px 0px;
+                padding: 50px 0px 0px;
                 width: 87%;
 
                 position: absolute;
@@ -266,18 +266,173 @@ body {
 
                 h2 {
                     // border: 1px solid red;
-                    margin-bottom: 40px;
+                    margin-bottom: 80px;
                     text-align: center;
                     font-family: $fuente-parrafos;
                     font-style: italic;
-                    color: grey;
+                    color: $color-grisclaro;
+                }
+                
+                .nosotros-cuadros {
+                    // border: 1px solid red;
+                    padding: 0;
+                    height: auto;
+                    width: 100%;
+
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: center;
+                    align-items: center;
+
+                    .nosotros-txt {
+                        // border: 1px solid cyan;
+                        margin-bottom: 80px;
+                        width: 48%;
+                        height: 400px;
+                        transition: 0.7s;
+
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        h4 {
+                            margin-bottom: 20px;
+                            font-size: 20px;
+                            text-align: center;
+                            color: $color-verde-claro;
+                        }
+
+                        p {
+                            text-align: center;
+                            padding: 20px;
+                            font-size: 14px;
+                            color: $color-grisclaro;
+                        }
+                    }
+
+                    // ------------------EFECTO HOJER ---------------------
+                    .snip_1 {
+                        // border: 1px solid chartreuse;
+                        margin: 0;
+                        margin-bottom: 80px;
+                        width: 48%;
+                        height: 400px;
+                        cursor: pointer;
+
+                        font-family: 'Montserrat', Arial, sans-serif;
+                        position: relative;
+                        display: inline-block;
+                        overflow: hidden;
+                        color: #fff;
+                        text-align: left;
+                        font-size: 16px;
+                        background: $color-grisoscuro;
+
+                        img {
+                            object-fit: cover;
+                            backface-visibility: hidden;
+                            vertical-align: top;
+                        }
+                    }
+
+                    .snip_1 *,
+                    .snip_1:before,
+                    .snip_1:after {
+                        -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
+                        -webkit-transition: all 0.4s ease;
+                        transition: all 0.4s ease;
+                    }
+                    .snip_1:before,
+                    .snip_1:after {
+                        position: absolute;
+                        top: 20px;
+                        right: 20px;
+                        content: '';
+                        background-color: #fff;
+                        z-index: 1;
+                        opacity: 0;
+                    }
+                    .snip_1:before {
+                        width: 0;
+                        height: 1px;
+                    }
+                    .snip_1:after {
+                        height: 0;
+                        width: 1px;
+                    }
+                    .snip_1 figcaption {
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        padding: 15px 20px;
+                    }
+                    .snip_1 h3,
+                    .snip_1 p {
+                        margin: 0;
+                        font-size: 1.1em;
+                        font-weight: normal;
+                        opacity: 0;
+                    }
+                    .snip_1 p {
+                        font-size: .8em;
+                        text-transform: uppercase;
+                    }
+                    .snip_1 a {
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        z-index: 1;
+                    }
+
+                    .snip_1:hover img,
+                    .snip_1.hover img {
+                        zoom: 1;
+                        filter: alpha(opacity=20);
+                        -webkit-opacity: 0.2;
+                        opacity: 0.4;
+                    }
+                    .snip_1:hover:before,
+                    .snip_1.hover:before,
+                    .snip_1:hover:after,
+                    .snip_1.hover:after {
+                        opacity: 1;
+                        -webkit-transition-delay: 0.25s;
+                        transition-delay: 0.25s;
+                    }
+                    .snip_1:hover:before,
+                    .snip_1.hover:before {
+                        width: 40px;
+                    }
+                    .snip_1:hover:after,
+                    .snip_1.hover:after {
+                        height: 40px;
+                    }
+                    .snip_1:hover h3,
+                    .snip_1.hover h3,
+                    .snip_1:hover p,
+                    .snip_1.hover p {
+                        opacity: 1;
+                    }
+                    .snip_1:hover h3,
+                    .snip_1.hover h3 {
+                        -webkit-transition-delay: 0.3s;
+                        transition-delay: 0.3s;
+                    }
+                    .snip_1:hover p,
+                    .snip_1.hover p {
+                        -webkit-transition-delay: 0.35s;
+                        transition-delay: 0.35s;
+                    }
+
+
+                    
+
                 }
 
-                p {
-                    // border: 1px solid green;
-                    width: 80%;
-                    text-align: justify;
-                }
             }
         }
     }
